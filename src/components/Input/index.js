@@ -1,6 +1,7 @@
 const Input = () => {
     return (
-      <div className="App">
+      <div className="InputContainer">
+        <p>Olá.</p>
       </div>
     );
   }

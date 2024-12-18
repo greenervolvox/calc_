@@ -1,17 +1,15 @@
 import React from "react";
-import { Container, Content } from "./styles"; // Importando Container e Content de styles.js
-import { GlobalStyle } from "./global"; // Importando o estilo global
+import './index.css';
+import Input from "./components/Input";
+import Button from "./components/Button";
 
 const App = () => {
   return (
-    <>
-      <GlobalStyle /> {/* Aplica o estilo global */}
-      <Container>
-        <Content>
-          Olá, este é o conteúdo centralizado dentro do Container!
-        </Content>
-      </Container>
-    </>
+    <div className="Content">
+        <div className="Content">
+        <Input />
+      </div>
+   </div>
   );
 }
 

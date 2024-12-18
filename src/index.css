@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.InputContainer {
+  width: 100%;
+  height: 75px;
+  background-color: #AAFFAA;
+}
+
+.Container{
+  width: 100%;
+  height: 100vh;
+  background-color: #FAFAFA;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Content{
+  background-color: #FFFFFF;
+  width: 80%;
+  min-height: 350px;
+}
