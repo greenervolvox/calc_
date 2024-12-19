@@ -1,7 +1,7 @@
-const Input = () => {
+const Input = ({value}) => {
     return (
       <div className="InputContainer">
-        <p>Olá.</p>
+        <input disabled value={value} />
       </div>
     );
   }

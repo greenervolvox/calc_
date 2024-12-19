@@ -1,35 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .InputContainer {
   width: 100%;
   height: 75px;
-  background-color: #AAFFAA;
+  background-color: #56ffe8;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  font-size: 24px;
+  font-family: 'Roboto';
 }
 
-.Container{
+.Container {
   width: 100%;
   height: 100vh;
-  background-color: #FAFAFA;
+  background-color: #CACACA;
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.Content{
+.Content {
   background-color: #FFFFFF;
   width: 80%;
-  min-height: 350px;
+  display: flex;
+  flex-direction: column; /* Direção vertical */
+  gap: 10px; /* Espaço entre o Input e os botões */
+}
+
+.ButtonContainer {
+  padding: 10px;
+  border: 1px solid #CDCDCD;
+  background-color: #0000FF;
+  color: #FFFFFF;
+  font-size: 24px;
+  flex: 1;
+
+  &:hover{
+    opacity: 0.6;;
+  }
+}
+
+.Row {
+  display: flex;
 }

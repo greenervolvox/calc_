@@ -1,8 +1,7 @@
-const Button = () => {
+const Button = ({label, onClick}) => {
     return (
-      <div className="App">
-      <h1>Olá.</h1>
-      <Button title={"Entrar"}/>
+      <div className="ButtonContainer" onClick={onClick} type = "button">
+      {label} 
       </div>
     );
   }
